@@ -37,12 +37,12 @@ Alerts such as *Mimikatz detections* from Wazuh are forwarded to Shuffle workflo
 ```bash 
 📂 SOC-Alert-Automation/
 ├── 📁 docs/
-│   └── 📄 soc-architecture.png             # Architecture diagram
-│
+├   └── 📁 Wazuh                            # Wazuh Images
+│   └── 📁 Shuffle                          # Shuffle Images
+│   └── 📁 Hive                             # TheHive Images
 ├── 📁 scripts/
 │   ├── 📄 install-wazuh.sh                 # Setup script for Wazuh
 │   ├── 📄 install-thehive.sh               # Full setup for TheHive 5.2 and dependencies
 │   └── 📄 ufw-rules.sh                     # Example firewall rules for SOC
-│
 ├── 📄 README.md                            # Project overview, architecture, usage
 ```
